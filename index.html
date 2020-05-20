@@ -8,320 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google-Homepage-Difficult</title>
-    <style>
-        body html input h1 {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 14px;
-        }
-
-        .topbar {
-            width: 100%;
-            margin-top: 30px;
-            display: flex;
-        }
-
-        #logodiv {
-            margin-left: 20px;
-            margin-right: 20px;
-            margin-top: 10px;
-        }
-
-        #logo {
-            width: 92px;
-            height: 30px;
-            margin: auto;
-        }
-
-        .divsearchbox {
-            background: #fff;
-            display: flex;
-            border: 1px solid #dfe1e5;
-            box-shadow: none;
-            height: 39px;
-            width: 690px;
-            border-radius: 24px;
-            z-index: 3;
-            height: 44px;
-            margin: 0 auto;
-        }
-
-        .inpsearchbox {
-            background-color: transparent;
-            border: none;
-            margin: 0;
-            padding: 0;
-            color: rgba(0, 0, 0, .87);
-            word-wrap: break-word;
-            outline: none;
-            display: flex;
-            flex: 100%;
-            -webkit-tap-highlight-color: transparent;
-            margin-top: -41px;
-            height: 34px;
-            font-size: 16px;
-            margin-left: 27px;
-            width: 636px;
-        }
-
-        .maincatbar {
-            width: 100%;
-            border-bottom: 1px solid #ebebeb;
-            display: flex;
-            padding-bottom: 5px;
-        }
-
-        #catbar {
-            float: left;
-            position: relative;
-            white-space: nowrap;
-            align-items: baseline;
-            display: flex;
-            -ms-flex-pack: justify;
-            justify-content: space-between;
-            min-width: 832px;
-        }
-
-        #mleft {
-            display: inline;
-            margin-left: 138px;
-        }
-
-        .icons {
-            display: inline-block;
-            padding: 16px 12px 12px 10px;
-            height: 16px;
-            line-height: 16px;
-            margin: 11px 1px 0;
-            color: #666;
-            font-size: 13px;
-        }
-
-        .icons a {
-            color: #666;
-            font-size: 13px;
-            text-decoration: none;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        #rightbar {
-            display: inline-flex;
-            float: right;
-            margin-right: 15px;
-        }
-
-        .appbar {
-            width: 100%;
-            font-size: 14px;
-            color: #70757a;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .apph {
-            height: 43px;
-            margin-left: 150px;
-            margin-top: 10px;
-        }
-
-        .mw {
-            max-width: 1197px;
-            height: 2959.11px;
-        }
-
-        .centercol {
-            margin-left: 180px;
-        }
-
-        .searchres {
-            position: relative;
-            margin-left: 0px;
-            margin-right: 0px;
-            width: 600px;
-            box-sizing: border-box;
-            margin-bottom: 2px;
-        }
-
-        .seachcontainer {
-            margin-left: 150px;
-            max-width: 660px;
-        }
-
-        .seachcreative {
-            position: relative;
-            margin-left: 0px;
-            margin-right: 0px;
-            width: 600px;
-            box-sizing: border-box;
-            margin-bottom: 27px;
-        }
-
-        .adno {
-            color: #3C4043;
-            font-size: 14px;
-            margin-left: 8px;
-            white-space: nowrap;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .adweb {
-            color: #3C4043;
-            font-size: 14px;
-            white-space: nowrap;
-            font-family: Arial, Helvetica, sans-serif;
-            text-decoration: none;
-        }
-
-        .arrowicon {
-            margin-left: 2px;
-        }
-
-        h3 {
-            margin-block-start: 0;
-            margin-block-end: 0;
-            margin-top: 1px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px !important;
-            line-height: 26px;
-            font-weight: normal;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .searchcreatve {
-            font-size: 14px;
-            font-family: Arial, Helvetica, sans-serif;
-            color: #3C4043;
-            line-height: 22px;
-        }
-
-        .bbox {
-            position: relative;
-            width: 652px;
-            overflow: hidden;
-            box-shadow: none;
-            border: 1px solid #dfe1e5;
-            border-radius: 8px;
-            margin-top: 25px;
-        }
-
-        .bboxins {
-            margin: 15px;
-        }
-
-        .bboxins1 {
-            margin-top: 0;
-            margin-bottom: 28px;
-        }
-
-        .bboxdesc {
-            overflow: hidden;
-            padding-bottom: 20px;
-        }
-
-        .snaptxt {
-            border-top: 1px solid #e5e5e5;
-            cursor: pointer;
-            display: block;
-            font-size: 16px;
-            padding-bottom: 9px;
-            padding-top: 9px;
-            position: relative;
-            line-height: 1.58;
-            font-family: arial, sans-serif;
-            padding-left: 15px;
-        }
-
-        .spantxt {
-            font-size: 14px;
-            line-height: 1.58;
-            color: #4d5156;
-            font-weight: normal;
-            font-family: arial, sans-serif;
-            word-wrap: break-word;
-        }
-
-        .abfdbk {
-            font-size: 12px;
-            display: flex;
-            float: right;
-            text-decoration: none;
-        }
-
-        #peoplealsoask {
-            color: #222;
-            font-size: 20px;
-            padding: 9px 16px;
-            line-height: 1.3;
-            font-weight: normal;
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .iconbbox {
-            float: right;
-            padding-right: 20px;
-            color: #666;
-            font-size: 20px;
-            line-height: 1.3;
-            font-weight: normal;
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .fbk {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 5px 15px 0 0;
-            float: right;
-        }
-
-        .x {
-            text-decoration: none;
-            color: #666;
-            font-size: 10px;
-            padding-right: 3px;
-        }
-
-        .fbk a {
-            color: #666;
-            font-size: 12px;
-        }
-
-        .awda {
-            margin-top: 40px;
-        }
-
-        .topsearchres1 {
-            margin: 50px 0 6px 0;
-            font-size: 14px;
-            font-family: Arial, Helvetica, sans-serif;
-            color: #3C4043;
-            line-height: 22px;
-        }
-
-        .btw {
-            margin-bottom: 28px;
-        }
-
-        .bothead {
-            font-size: 20px;
-            line-height: 1.3;
-            padding: 0 0px 12px 0px;
-        }
-
-        .bothead h3 {
-            color: #222;
-            height: auto;
-            padding-bottom: 8px;
-        }
-
-
-        }
-    </style>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -342,7 +29,7 @@
             <div id="catbar">
                 <div style="flex: auto;">
                     <div id="mleft">
-                        <div class="icons">
+                        <div class="icons dontbeevil">
                             <span style="height: 13px;width: 13px; margin-right: 5px; vertical-align: text-bottom;">
                                 <img style="height: 10px;width: 10px;"
                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1200px-Magnifying_glass_icon.svg.png"
@@ -350,7 +37,7 @@
                             </span>
                             <a href="">All</a>
                         </div>
-                        <div class="icons">
+                        <div class="icons dontbeevil">
                             <span style="height: 13px;width: 13px; margin-right: 5px; vertical-align: text-bottom;">
                                 <img style="height: 10px;width: 10px;"
                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1200px-Magnifying_glass_icon.svg.png"
@@ -358,7 +45,7 @@
                             </span>
                             <a href="">News</a>
                         </div>
-                        <div class="icons">
+                        <div class="icons dontbeevil">
                             <span style="height: 13px;width: 13px; margin-right: 5px; vertical-align: text-bottom;">
                                 <img style="height: 10px;width: 10px;"
                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1200px-Magnifying_glass_icon.svg.png"
@@ -366,7 +53,7 @@
                             </span>
                             <a href="">Maps</a>
                         </div>
-                        <div class="icons">
+                        <div class="icons dontbeevil">
                             <span style="height: 13px;width: 13px; margin-right: 5px; vertical-align: text-bottom;">
                                 <img style="height: 10px;width: 10px;"
                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1200px-Magnifying_glass_icon.svg.png"
@@ -374,7 +61,7 @@
                             </span>
                             <a href="">Videos</a>
                         </div>
-                        <div class="icons">
+                        <div class="icons dontbeevil">
                             <span style="height: 13px;width: 13px; margin-right: 5px; vertical-align: text-bottom;">
                                 <img style="height: 10px;width: 10px;"
                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1200px-Magnifying_glass_icon.svg.png"
@@ -382,7 +69,7 @@
                             </span>
                             <a href="">Shopping</a>
                         </div>
-                        <div class="icons">
+                        <div class="icons dontbeevil">
                             <span style="height: 13px;width: 13px; margin-right: 5px; vertical-align: text-bottom;">
                                 <img style="height: 10px;width: 10px;"
                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1200px-Magnifying_glass_icon.svg.png"
@@ -392,7 +79,7 @@
                         </div>
                     </div>
                     <div id="rightbar">
-                        <div class="icons">
+                        <div class="icons dontbeevil">
                             <span style="height: 13px;width: 13px; margin-right: 5px; vertical-align: text-bottom;">
                                 <img style="height: 10px;width: 10px;"
                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1200px-Magnifying_glass_icon.svg.png"
@@ -400,7 +87,7 @@
                             </span>
                             <a href="">Settings</a>
                         </div>
-                        <div class="icons">
+                        <div class="icons dontbeevil">
                             <span style="height: 13px;width: 13px; margin-right: 5px; vertical-align: text-bottom;">
                                 <img style="height: 10px;width: 10px;"
                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1200px-Magnifying_glass_icon.svg.png"
@@ -422,7 +109,7 @@
             </div>
         </div>
         <div class="mw">
-            <div class="seachcontainer">
+            <div class="searchcontainer">
                 <div class="searchres">
                     <div class="topsearchres">
                         <div class="topline">
@@ -478,7 +165,7 @@
                 </div>
                 <div class="abfdbk">
                     <div class="ab">
-                        <span class="fbk">
+                        <span class="fbk dontbeevil">
                             <span class="x">
                                 X
                             </span>
@@ -486,7 +173,7 @@
                         </span>
                     </div>
                     <div class="fdbk">
-                        <span class="fbk">
+                        <span class="fbk dontbeevil">
                             <span class="x">
                                 X
                             </span>
@@ -496,38 +183,38 @@
                 </div>
                 <div class="awda bbox">
                     <h2 id="peoplealsoask">People also ask</h2>
-                    <div class="bbox1 snaptxt">
+                    <div class="snaptxt">
                         How can I create my own webpage?
-                        <span class="iconbbox">></span>
+                        <span class="iconbbox dontbeevil">></span>
                     </div>
-                    <div class="bbox1 snaptxt">
+                    <div class="snaptxt">
                         How do I build my website for free?
                     </div>
-                    <div class="bbox1 snaptxt">
+                    <div class="snaptxt">
                         How much does it cost to build a website?
                     </div>
-                    <div class="bbox1 snaptxt">
+                    <div class="snaptxt">
                         Which website builder is the best?
                     </div>
-                    <div class="bbox1 snaptxt">
+                    <div class="snaptxt">
                         What is the best program to build a website?
                     </div>
-                    <div class="bbox1 snaptxt">
+                    <div class="snaptxt">
                         How can I create a website and earn money?
                     </div>
-                    <div class="bbox1 snaptxt">
+                    <div class="snaptxt">
                         How do I publish my html website?
                     </div>
-                    <div class="bbox1 snaptxt">
+                    <div class="snaptxt">
                         What is Website example?
                     </div>
-                    <div class="bbox1 snaptxt">
+                    <div class="snaptxt">
                         How do I start a website with no experience?
                     </div>
-                    <div class="bbox1 snaptxt">
+                    <div class="snaptxt">
                         How does a webpage work?
                     </div>
-                    <div class="bbox1 snaptxt">
+                    <div class="snaptxt">
                         Is GoDaddy free?
                     </div>
                 </div>
@@ -604,8 +291,8 @@
                         </div>
                     </span>
                     <span class="spantxt">
-                        May 7, 2020 - How to a <em>Website</em>: the Step-by-Step Guide to Easy Setup.
-                        We'll look at how to make a <em>website</em> with both a <em>website</em>
+                        May 7, 2020 - How to a <b>Website</b>: the Step-by-Step Guide to Easy Setup.
+                        We'll look at how to make a <b>website</b> with both a <b>website</b>
                         builder and WordPress,
                         ... </span>
                 </div>
@@ -628,8 +315,8 @@
                     </span>
                     <span class="spantxt">
                         Apr 21, 2020 - In this article, I will show you the essential steps in
-                        <em>creating</em>
-                        a <em>website</em>. Register a domain name; Signup for a web hosting; Design
+                        <b>creating</b>
+                        a <b>website</b>. Register a domain name; Signup for a web hosting; Design
                         your ...
                     </span>
                 </div>
@@ -651,7 +338,7 @@
                     </span>
                     <span class="spantxt">
                         Squarespace is the all-in-one solution for anyone looking to create a beautiful
-                        <em>website</em>. Domains, eCommerce, hosting, galleries, analytics, and 24/7
+                        <b>website</b>. Domains, eCommerce, hosting, galleries, analytics, and 24/7
                         support all
                         ...
                     </span>
@@ -673,7 +360,7 @@
                         </div>
                     </span>
                     <span class="spantxt">
-                        If you need to quickly build a simple <em>website</em>, starting with a blogging
+                        If you need to quickly build a simple <b>website</b>, starting with a blogging
                         service
                         is a great way to go. The major player in the blog game is WordPress, a content
                         ...
@@ -696,7 +383,7 @@
                         </div>
                     </span>
                     <span class="spantxt">
-                        Explore HTML & CSS fundamentals as you <em>build</em> a <em>website</em> in this
+                        Explore HTML & CSS fundamentals as you <b>build</b> a <b>website</b> in this
                         introductory web
                         development course. Start. Overview Syllabus. Why Learn HTML and CSS?
                     </span>
@@ -717,9 +404,9 @@
                         </div>
                     </span>
                     <span class="spantxt">
-                        Let Google <em>build</em> your first <em>website</em> for free. We'll help you
+                        Let Google <b>build</b> your first <b>website</b> for free. We'll help you
                         create a beautiful
-                        <em>website</em> to impress and engage new customers – and establish your
+                        <b>website</b> to impress and engage new customers – and establish your
                         business
                         online.
                     </span>
@@ -741,8 +428,8 @@
                         </div>
                     </span>
                     <span class="spantxt">
-                        Domain names, web hosting, <em>website</em> templates, and ecommerce solutions
-                        ... <em>Build</em>
+                        Domain names, web hosting, <b>website</b> templates, and ecommerce solutions
+                        ... <b>Build</b>
                         a credible brand identity with your custom domain name - included for free ...
                     </span>
                 </div>
@@ -750,10 +437,199 @@
                     <div class="bothead">
                         <h3>Searches related to build this webpage</h3>
                     </div>
-                    
+                    <div>
+                        <div class="card-section-inner">
+                            <p class="nVcaUb brs">
+                                <a href="">
+                                    <span style="height: 20px;
+                                    line-height: 20px;
+                                    width: 20px; margin-right: 10px;">
+                                        x
+                                    </span>
+                                    <b>how to</b> build <b>a website from scratch</b></a>
+                            </p>
+                            <p class="nVcaUb brs">
+                                <a href="">
+                                    <span style="height: 20px;
+                                        line-height: 20px;
+                                        width: 20px; margin-right: 10px;">
+                                        x
+                                    </span>
+                                    <b>create professional website</b></a>
+                            </p>
+                            <div class="IWTYQ"></div>
+                            <p class="nVcaUb brs">
+                                <a href="">
+                                    <span style="height: 20px;
+                                            line-height: 20px;
+                                            width: 20px; margin-right: 10px;">
+                                        x
+                                    </span>
+                                    <b>learn to</b> build <b>a website</b></a>
+                            </p>
+                            <div class="IWTYQ"></div>
+                            <p class="nVcaUb brs">
+                                <a href="">
+                                    <span style="height: 20px;
+                                                line-height: 20px;
+                                                width: 20px; margin-right: 10px;">
+                                        x
+                                    </span>
+                                    <b>ways to</b> build <b>a website</b></a>
+                            </p>
+                            <div class="IWTYQ"></div>
+                            <p class="nVcaUb brs">
+                                <a href="">
+                                    <span style="height: 20px;
+                                                    line-height: 20px;
+                                                    width: 20px; margin-right: 10px;">
+                                        x
+                                    </span>
+                                    <b>how to</b> build <b>and maintain a website</b></a>
+                            </p>
+                            <div class="IWTYQ"></div>
+                            <p class="nVcaUb brs">
+                                <a href="">
+                                    <span style="height: 20px;
+                                                        line-height: 20px;
+                                                        width: 20px; margin-right: 10px;">
+                                        x
+                                    </span>
+                                    <b>how to</b> build <b>a good website</b></a>
+                            </p>
+                            <div class="IWTYQ"></div>
+                        </div>
+                        <div class="card-section-inner">
+                            <p class="nVcaUb brs">
+                                <a href="">
+                                    <span style="height: 20px;
+                                            line-height: 20px;
+                                            width: 20px; margin-right: 10px;">
+                                        x
+                                    </span>
+                                    <b>is creating a website free</b></a>
+                            </p>
+                            <p class="nVcaUb brs">
+                                <a href="">
+                                    <span style="height: 20px;
+                                                line-height: 20px;
+                                                width: 20px; margin-right: 10px;">
+                                        x
+                                    </span>
+                                    <b>how hard is it to</b> build <b>a website</b></a>
+                            </p>
+                            <div class="IWTYQ"></div>
+                            <p class="nVcaUb brs">
+                                <a href="">
+                                    <span style="height: 20px;
+                                                    line-height: 20px;
+                                                    width: 20px; margin-right: 10px;">
+                                        x
+                                    </span>
+                                    <b>how to</b> build <b>a website for a client</b></a>
+                            </p>
+                            <div class="IWTYQ"></div>
+                            <p class="nVcaUb brs">
+                                <a href="">
+                                    <span style="height: 20px;
+                                                        line-height: 20px;
+                                                        width: 20px; margin-right: 10px;">
+                                        x
+                                    </span>
+                                    <b>fastest way to</b> <b>build a website</b></a>
+                            </p>
+                            <div class="IWTYQ"></div>
+                            <p class="nVcaUb brs">
+                                <a href="">
+                                    <span style="height: 20px;
+                                                            line-height: 20px;
+                                                            width: 20px; margin-right: 10px;">
+                                        x
+                                    </span>
+                                    <b>best way to learn how to</b> build <b>a website</b></a>
+                            </p>
+                            <div class="IWTYQ"></div>
+                            <p class="nVcaUb brs">
+                                <a href="">
+                                    <span style="height: 20px;
+                                                                line-height: 20px;
+                                                                width: 20px; margin-right: 10px;">
+                                        x
+                                    </span>
+                                    <b>web building</b></a>
+                            </p>
+                            <div class="IWTYQ"></div>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                    <div>
+                        <nav>
+                            <img src="imgs/google-nav-logo.png"
+                                alt="">
+                            <ol class="searchpages">
+                                <a href="">
+                                    <li>1</li>
+                                </a>
+                                <a href="">
+                                    <li>2</li>
+                                </a>
+                                <a href="">
+                                    <li>3</li>
+                                </a>
+                                <a href="">
+                                    <li>4</li>
+                                </a>
+                                <a href="">
+                                    <li>5</li>
+                                </a>
+                                <a href="">
+                                    <li>6</li>
+                                </a>
+                                <a href="">
+                                    <li>7</li>
+                                </a>
+                                <a href="">
+                                    <li>8</li>
+                                </a>
+                                <a href="">
+                                    <li>9</li>
+                                </a>
+                                <a class="t10" href="">
+                                    <li>10</li>
+                                </a>
+                                <a class="next" href="">
+                                    <li>Next</li>
+                                </a>
+                            </ol>
+                        </nav>
+                    </div>
                 </div>
             </div>
     </main>
+    <footer>
+        <div id="border">
+            <div class="searchcontainer" id="location">
+                <p>Netherlands</p>
+            </div>
+        </div>
+        <nav class="searchcontainer">
+            <ul>
+                <li>
+                    <a href="">Help</a>
+                </li>
+                <li>
+                    <a href="">Send Feedback</a>
+                </li>
+                <li>
+                    <a href="">Privacy</a>
+                </li>
+                <li>
+                    <a href="">Terms</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,399 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.topbar {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+}
+
+#logodiv {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#logo {
+    width: 92px;
+    height: 30px;
+    margin: auto;
+}
+
+.divsearchbox {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    height: 39px;
+    width: 690px;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.inpsearchbox {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -41px;
+    height: 34px;
+    font-size: 16px;
+    margin-left: 27px;
+    width: 636px;
+}
+
+.maincatbar {
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+#catbar {
+    float: left;
+    position: relative;
+    white-space: nowrap;
+    align-items: baseline;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    min-width: 832px;
+}
+
+#mleft {
+    display: inline;
+    margin-left: 138px;
+}
+
+.icons {
+    display: inline-block;
+    padding: 16px 12px 12px 10px;
+    height: 16px;
+    line-height: 16px;
+    margin: 11px 1px 0;
+    font-size: 13px;
+}
+
+.icons a {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#rightbar {
+    display: inline-flex;
+    float: right;
+    margin-right: 15px;
+}
+
+.appbar {
+    width: 100%;
+    color: #70757a;
+}
+
+.apph {
+    height: 43px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.mw {
+    max-width: 1197px;
+    height: 2354.11px;
+}
+
+.centercol {
+    margin-left: 180px;
+}
+
+.searchres {
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 600px;
+    box-sizing: border-box;
+    margin-bottom: 2px;
+}
+
+.searchcontainer {
+    margin-left: 150px;
+    max-width: 660px;
+}
+
+.seachcreative {
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 600px;
+    box-sizing: border-box;
+    margin-bottom: 27px;
+}
+
+.adno {
+    color: #3C4043;
+    margin-left: 8px;
+    white-space: nowrap;
+}
+
+.adweb {
+    color: #3C4043;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.arrowicon {
+    margin-left: 2px;
+}
+
+h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 1px;
+    font-size: 20px !important;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.searchcreatve {
+    color: #3C4043;
+    line-height: 22px;
+}
+
+.bbox {
+    position: relative;
+    width: 652px;
+    overflow: hidden;
+    box-shadow: none;
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.bboxins {
+    margin: 15px;
+}
+
+.bboxins1 {
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+
+.bboxdesc {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.snaptxt {
+    border-top: 1px solid #e5e5e5;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    position: relative;
+    line-height: 1.58;
+    padding-left: 15px;
+}
+
+.spantxt {
+    font-size: 14px;
+    line-height: 1.58;
+    color: #4d5156;
+    word-wrap: break-word;
+}
+
+.abfdbk {
+    font-size: 12px;
+    display: flex;
+    float: right;
+    text-decoration: none;
+}
+
+#peoplealsoask {
+    color: #222;
+    font-size: 20px;
+    padding: 9px 16px;
+    line-height: 1.3;
+    font-weight: normal;
+    margin: 0;
+}
+
+.dontbeevil {
+    color: #666;
+}
+
+.iconbbox {
+    float: right;
+    padding-right: 20px;
+    font-size: 20px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.fbk {
+    margin: 5px 15px 0 0;
+    float: right;
+}
+
+.x {
+    text-decoration: none;
+    font-size: 10px;
+    padding-right: 3px;
+}
+
+.fbk a {
+    font-size: 12px;
+}
+
+.awda {
+    margin-top: 40px;
+}
+
+.topsearchres1 {
+    margin: 50px 0 6px 0;
+    color: #3C4043;
+    line-height: 22px;
+}
+
+.btw {
+    margin-bottom: 28px;
+}
+
+.bothead {
+    font-size: 20px;
+    line-height: 1.3;
+    padding: 0 0px 12px 0px;
+}
+
+.bothead h3 {
+    color: #222;
+    height: auto;
+    padding-bottom: 8px;
+}
+
+
+.card-section-inner {
+    font-size: 16px;
+    margin-top: -1px;
+    padding-bottom: 1px;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: top;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-right: 20px;
+    width: 290px;
+}
+
+.nVcaUb {
+    margin: 0;
+    clear: both;
+}
+
+.brs a {
+    padding: 3px 32px 3px 0;
+    display: inline-block;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 275px;
+    color: #202124;
+
+}
+
+.IWTYQ {
+    display: block;
+    border-top: 1px solid #dadce0;
+    width: 290px;
+}
+
+main nav img {
+    width: 325px;
+    display: block;
+    margin: auto;
+    padding: 24px 26px 0;
+}
+
+ol a li {
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 9.3px;
+}
+
+.t10 {
+    left: -5px;
+    position: relative;
+}
+
+.searchpages {
+    margin: 0px 0 0 168px;
+}
+
+.next {
+    margin-left: 42px;
+}
+
+a li {
+    color: #4285f4;
+}
+
+footer {
+    width: 100%;
+    background-color: #efefef;
+    border-top: #dddddd solid 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer nav a {
+    font-family: Arial;
+    color: #666666;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    padding-right: 20px;
+}
+
+#location {
+    font-family: Arial;
+    color: #888888;
+    font-size: 15px;
+}
+
+#border {
+    border-bottom: 1px solid #e5e5e5;
+}
